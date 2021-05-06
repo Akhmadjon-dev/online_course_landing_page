@@ -165,8 +165,42 @@ a{
 .media__partners{
     width: 100%;
     margin: 20px 0px;
-    padding: 50px 100px;
+    padding: 50px 80px;
 }
 .media__partner{
     margin: 0px 30px;
+}
+
+/* // features styling here  */
+
+
+.features{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+.features__title{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+    /* identical to box height, or 100% */
+
+    margin-bottom: 10px;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
+.features__text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    /* or 186% */
+    text-align: center;
+
+    color: #848199;
+    width: 450px;
+    margin: auto;
 }
