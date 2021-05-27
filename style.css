@@ -35,10 +35,12 @@ a{
     width: 100%;
     padding: 0px 80px;
     height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .home__logo{
-    margin-right: 80px;
     line-height: 95px;
 }
 .home__link{
@@ -61,16 +63,12 @@ a{
     background-color: var(--main-color);
     border-radius: 50%;
 }
-.home__header> *, .home__link{
-    float: left;
-}
-.home__header> *:last-child{
-    float: right;
-}
 
 .home__links{
     list-style-type: none;
     line-height: 80px;
+    display: flex;
+
 }
 .home__btn{
     padding: 0px 30px;
@@ -80,6 +78,5 @@ a{
     border: 1px solid var(--main-color);
     border-radius: 4px;
     color:var(--main-color);
-    /* transition:  0.3s; */
     padding: 12px 30px;
 }
