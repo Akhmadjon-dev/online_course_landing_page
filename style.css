@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,700;1,800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&display=swap');
 :root{
     --main-color: #FF5722;
     --bc: linear-gradient(106.24deg, #EEE0CA -0.66%, #F9F3EA 96.85%);
     --text: #04004D;
+    --sub-text: #01001A;
+    --white: #ffffff;
 }
 
 *{
@@ -35,9 +37,7 @@ a{
     width: 100%;
     padding: 0px 80px;
     height: 80px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    margin-bottom: 80px;
 }
 
 .home__logo{
@@ -79,4 +79,122 @@ a{
     border-radius: 4px;
     color:var(--main-color);
     padding: 12px 30px;
+}
+
+
+.home__main{
+    width: 90%;
+    margin: auto;
+    min-height: 100vh;
+    clear: both;
+}
+
+.home__left{
+    float: left;
+    position: relative;
+    z-index: 3;
+    width: 57%;
+}
+.home__right{
+    float: left;
+    width: 40%;
+    position: relative;
+}
+
+
+.home__title{
+    color: var(--text);
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 74px;
+    font-family: 'Playfair Display', serif;
+}
+.home__title .home__active-text{
+    color: var(--main-color);
+}
+
+.home__sub-text{
+    color: var(--sub-text);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 20px 0px;
+}
+
+.home__img{
+    width: 129%;
+    position: absolute;
+    left: -70px;
+}
+
+.home__main-btn{
+    width: 160px;
+    height: 56px;
+    color: var(--white);
+    background-color: var(--main-color);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border:none;
+    border-radius: 4px;
+    margin: 0px 12px;
+    cursor: pointer;
+}
+.home__main-btn:first-child{
+    margin-left: 0;
+}
+.home__main-btn:hover{
+    background-color: transparent;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    transition: .4s;
+}
+
+/* // media parners */
+
+.media__partners{
+    width: 100%;
+    margin: 20px 0px;
+    padding: 50px 80px;
+}
+.media__partner{
+    margin: 0px 30px;
+}
+
+/* // features styling here  */
+
+
+.features{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+.features__title{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+    /* identical to box height, or 100% */
+
+    margin-bottom: 10px;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
+.features__text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    /* or 186% */
+    text-align: center;
+
+    color: #848199;
+    width: 450px;
+    margin: auto;
 }
