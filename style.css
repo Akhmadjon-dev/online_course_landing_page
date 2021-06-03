@@ -187,7 +187,7 @@ a{
     line-height: 32px;
     /* identical to box height, or 100% */
 
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     letter-spacing: 0.02em;
     color: var(--text);
 }
@@ -199,7 +199,7 @@ a{
     line-height: 26px;
     /* or 186% */
     text-align: center;
-
+    margin-bottom: 90px;
     color: #848199;
     width: 450px;
     margin: auto;
@@ -235,8 +235,7 @@ a{
     background: #FF5722;
     box-shadow: 0px 42px 34px rgba(255, 87, 34, 0.24);
     color: #ffffff;
-    margin-bottom: 50px;
-    transition: all 0.2s linear;
+    cursor: pointer;
 }
 
 .features__card-title{
@@ -247,26 +246,25 @@ a{
     width: 70%;
 }
 .features__icon{
-    width: 45px;
-    height: 45px;
+    width: 58px;
+    height: 58px;
     border-radius: 50%;
-    background-color: var(--main-color);
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 24px;
     position: relative;
+    background: #F5F5F5;
     z-index: 999;
 }
-.features__icon::after{
-    content: "";
+.features__icon .before{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
-    z-index: -2;
-    background: #22e0b780;
+    z-index: -1;
+    background-color: var(--main-color);
     transform: translate(-50%,-50%);
 }
