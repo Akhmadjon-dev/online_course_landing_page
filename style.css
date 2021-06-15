@@ -344,3 +344,6 @@ a{
 .classes__cards{
     display: flex;
 }
+.classes__img-icon{
+    width: 40px;
+}
