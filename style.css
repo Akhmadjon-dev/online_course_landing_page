@@ -312,9 +312,6 @@ a{
     color: #848199;
 }
 
-.classes__head-btns{
-
-}
 
 .classes__select{
     border: 1px solid #F6F6F6;
@@ -343,7 +340,127 @@ a{
 
 .classes__cards{
     display: flex;
+    padding: 50px 0;
 }
+.classes__card{
+    border: 0.972459px solid rgba(0, 0, 0, 0.1);
+    margin: 0px 10px;
+    border-radius: 5px;
+
+}
+
 .classes__img-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    background-color: #ffffff;
+}
+
+.classes__img-block{
+    position: relative;
+}
+.classes__img-title{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transform: translate(-50%, -50%);
+}
+.classes__card-bg{
+    position: relative;
+    z-index: -22;
+}
+.classes__card-bg img{
+    width: 100%;
+
+}
+.classes__card-bg::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    background-color: #00000054;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.classes__card-body{
+    padding:15px 24px;
+}
+.classes__card-row{
+    display: flex;
+    justify-content: space-between;
+}
+.classes__card-start{
+    font-size: 13.6144px;
+    line-height: 14px;
+    /* identical to box height, or 100% */
+
+
+    color: #4D4D4D;
+}
+.classes__card-start > img{
+    margin-right: 5px;
+}
+.classes__title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    letter-spacing: 0.01em;
+
+    color: #262626;
+}
+
+.classes__card-teacher{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 10px 0;
+    color: #4D4D4D;
+    margin-bottom: 34px;
+}
+
+.classes__users-icon{
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #4D4D4D;
+}
+.classes__users-icon > img{
+    margin-right: 7px;
+}
+
+
+.classes__card-btn{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FF5722;
+    padding: 8px;
+    background: rgba(255, 87, 34, 0.16);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.row-baseline{
+    align-items: baseline !important;
 }
