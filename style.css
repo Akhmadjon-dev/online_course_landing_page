@@ -340,3 +340,7 @@ a{
     background: #FF5722;
     border-radius: 4px;
 }
+
+.classes__cards{
+    display: flex;
+}
