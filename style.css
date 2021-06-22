@@ -545,3 +545,102 @@ a{
     text-decoration: underline;
     color: #FF5722;
 }
+
+.students{
+    margin: 100px auto;
+    width: 80%;
+
+}
+
+.students__title{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+    /* or 100% */
+
+    letter-spacing: 0.02em;
+
+    color: #04004D;
+
+    margin-bottom: 8px;
+
+}
+
+.students__sub-title{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    width: 555px;
+    /* or 171% */
+    margin-bottom: 70px;
+
+
+    color: #848199;
+
+}
+
+.students__cards{
+    display: flex;
+    width: 100%;
+}
+
+.students__card{
+    width: 265px;
+    height: 265px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.students__card__img{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    position: relative;
+    top: -25px;
+    object-fit: cover;
+}
+
+.students__name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    color: #3D3D3D;
+
+}
+
+.students__job{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 125% */
+    color: rgba(61, 61, 61, 0.671); 
+    margin: 5px 0;
+}
+
+.students__text{
+    margin: 0 15px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    text-align: center;
+    color: #4D4D4D;
+
+}
+
+.students__row>span{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height, or 100% */
+
+    color: #3D3D3D;
+
+}
